@@ -6,4 +6,28 @@
   body {
     font-family: "Noto Sans", sans-serif;
   }
+  h1 {
+    @apply text-4xl text-primary-900
+  }
+  h2 {
+    @apply text-3xl text-primary-900
+  }
+  h3 {
+    @apply text-xl text-primary-900
+  }
+  h4 {
+    @apply text-lg text-primary-900
+  }
+  h5 {
+    @apply text-base 
+  }
+}
+
+@layer components {
+  .btnFilled {
+    @apply rounded bg-secondary-500 px-6 py-1 md:px-10 md:py-3 text-brz-white text-base tracking-wider text-center hover:bg-secondary-100 hover:text-brz-black
+  }
+  .btnOutlined {
+    @apply rounded border border-secondary-500 px-6 py-1 md:px-10 md:py-3 text-brz-black text-base tracking-wider text-center hover:bg-secondary-100 hover:text-brz-black
+  } 
 }
