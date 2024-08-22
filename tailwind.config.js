@@ -20,6 +20,10 @@ export default {
           950: '#331F1E',
         },
       },
+      padding: {
+        'tbpad':'1.125rem',
+        'lrpad':'8.0625rem'
+      }
     },
   },
   fontFamily: {
