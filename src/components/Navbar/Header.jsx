@@ -1,26 +1,29 @@
 //  import images 
-import {
-  NavLink,
-} from "react-router-dom";
-import { breezeLogo } from "../../assets/imgs-brz/images"
+import Nav from "./Nav";
+
+import { breezeLogo } from "../../assets/imgs-brz/images";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <header className=" sticky top-0 z-[1] mx-auto  py-tbpad px-lrpad col-auto bg-primary-900">
+    <header className=" sticky top-0 z-[1] mx-auto  py-tbpad px-lrpad bg-primary-900">
      
       <div className="container mx-auto flex items-center  justify-between">
          {/* Logo here */}
-        <div to="/" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img src={breezeLogo} alt="Breeze Logo" className="w-12 h-12" />
-        </div>
+          </Link>
         {/* Navigation Links */}
-      <nav className="">
-        <NavLink to="/" className="" >Home</NavLink>
-        <NavLink to="/about" className="" >About Us</NavLink>
-        <NavLink to="/services" className="" >Services</NavLink>
-        <NavLink to="/blog" className="" >Blog</NavLink>
-        <NavLink to="/contact" className="" >Contact Us</NavLink>
-      </nav>
+          <Nav />
+          <div className="flex ">
+            <Link to="/" className="flex items-center">
+              <img src={breezeLogo} alt="Breeze Logo" className="w-12 h-12" />
+            </Link>
+            <Link to="/" className="flex items-center">
+              <img src={breezeLogo} alt="Breeze Logo" className="w-12 h-12" />
+            </Link>
+          </div>
+        
       </div>
     </header>
   )
