@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
+
     <header className=" sticky top-0 z-[1] mx-auto  py-tbpad px-lrpad bg-primary-900">
-     
       <div className="container mx-auto flex items-center  justify-between">
          {/* Logo here */}
           <Link to="/" className="flex items-center">
