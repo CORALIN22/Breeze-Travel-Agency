@@ -8,7 +8,6 @@ export default {
         'brz-black': '#0B0B0B',
         'brz-white': '#F8F8F8',
         'brz-gray': '#A1A1A1',
-        'brz-accent': '#EA4A85',
 
         primary: {
           50: '#FAF7EF',
@@ -19,6 +18,10 @@ export default {
           900: '#5E3E3D',
           950: '#331F1E',
         },
+        secondary: {
+          100: '#F8ACCC',
+          500: '#EA4A85',
+        },
       },
       padding: {
         'tbpad':'1.125rem',
@@ -27,7 +30,7 @@ export default {
     },
   },
   fontFamily: {
-    noto: ["Noto Sans", 'sans-serif'],
+    noto: ['Noto Sans', 'sans-serif'],
   },
   bgImage: {
     heroImg: 'url("./src/assets/imgs-brz/hero-min.jpg")',
