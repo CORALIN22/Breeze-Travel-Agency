@@ -31,6 +31,7 @@ import springPkg from './springPkg-min.png'
 import summerPkg from './summerPkg-min.png'
 import winterPkg from './winterPkg-min.png'
 import temple from './temple.png'
+import breezeProfPic from './profileLogo.png'
 
 
-export {addonCrafts,addonNightLife,addonOnsen,addonSumo,alps,aroundfiju,autumnPkg,breezeLogo,breezeOfc,bullettrain,citystreets,hero,islandbreeze,japanAlps,japannight,jpDineing,jpFestival,kimono,kyoto,kyoutoBlog,kyoutobamboo,mtfuji,nighttokyojpg,office,okinawa,packingList,pkgA,riverredbridge,snowboarding,springPkg,summerPkg,winterPkg,temple}
+export {addonCrafts,addonNightLife,addonOnsen,addonSumo,alps,aroundfiju,autumnPkg,breezeLogo,breezeOfc,bullettrain,citystreets,hero,islandbreeze,japanAlps,japannight,jpDineing,jpFestival,kimono,kyoto,kyoutoBlog,kyoutobamboo,mtfuji,nighttokyojpg,office,okinawa,packingList,pkgA,riverredbridge,snowboarding,springPkg,summerPkg,winterPkg,temple,breezeProfPic}
