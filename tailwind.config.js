@@ -23,6 +23,10 @@ export default {
           500: '#EA4A85',
         },
       },
+      padding: {
+        'tbpad':'1.125rem',
+        'lrpad':'8.0625rem'
+      }
     },
   },
   fontFamily: {
