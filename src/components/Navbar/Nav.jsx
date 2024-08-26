@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navigation = () => {
   return (
-    <nav className="w-1/3 flex justify-between items-center tracking-widest ">
+    <nav className="flex justify-between gap-8 items-center tracking-widest ">
       <NavLink
         to="/home"
         className={({ isActive }) =>

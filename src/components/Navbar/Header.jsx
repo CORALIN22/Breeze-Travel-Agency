@@ -13,7 +13,7 @@ export const Header = () => {
 
   return (
     //* Header styles*//
-    <header className="sticky top-0 z-[1] mx-auto py-tbpad px-lrpad bg-primary-900">
+    <header className="sticky top-0 z-[1] mx-auto py-4 px-6 md:px-8 bg-primary-900">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center">
@@ -47,7 +47,7 @@ export const Header = () => {
           <FontAwesomeIcon 
             icon={faBars} // Use faBars for the menu button
             style={{ color: "rgba(180, 136, 127, 1)" }} 
-            className="text-xl w-7 h-5" 
+            className="text-xl w-8 h-8" 
           />
         </button>
       </div>
