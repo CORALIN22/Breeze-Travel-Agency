@@ -13,7 +13,7 @@ export const Header = () => {
 
   return (
     //* Header styles*//
-    <header className="sticky top-0 z-[1] mx-auto py-4 px-6 md:px-8 bg-primary-900">
+    <header className="sticky top-0 z-[1] mx-auto  py-4 px-6 md:px-8 bg-primary-900 ">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center">
