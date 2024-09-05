@@ -12,7 +12,7 @@ export const Services=()=>{
                     <h1>Our Services</h1>
                 </div>
                 <div className='container flex justify-between items-center'>
-                    <div　className="flex flex-col gap-4 justify-center items-center text-center w-1/3 lg:flex-row ">
+                    <div　className="flex flex-col gap-4 justify-center items-center text-center  lg:flex-row ">
                         <Link to="/" className="w-24 h-24 border border-solid p-6 border-primary-500 rounded flex items-center justify-center">
                             <FontAwesomeIcon 
                             icon={faBookOpen} // Use faCartShopping here
@@ -28,7 +28,7 @@ export const Services=()=>{
                             </p>
                         </div>
                     </div>
-                    <div　className="flex flex-col gap-4 justify-center items-center text-center w-1/3 lg:flex-row ">
+                    <div　className="flex flex-col gap-4 justify-center items-center text-center lg:flex-row ">
                         <Link to="/" className="w-24 h-24 border border-solid p-6 border-primary-500 rounded flex items-center justify-center">
                             <FontAwesomeIcon 
                             icon={faBookOpen} // Use faCartShopping here
@@ -44,7 +44,7 @@ export const Services=()=>{
                             </p>
                         </div>
                     </div>
-                    <div　className="flex flex-col gap-4 justify-center items-center text-center w-1/3 lg:flex-row ">
+                    <div　className="flex flex-col gap-4 justify-center items-center text-center lg:flex-row ">
                         <Link to="/" className="w-24 h-24 border border-solid p-6 border-primary-500 rounded flex items-center justify-center">
                             <FontAwesomeIcon 
                             icon={faBookOpen} // Use faCartShopping here
