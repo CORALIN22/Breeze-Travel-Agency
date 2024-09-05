@@ -3,6 +3,7 @@ import { Hero } from './components/Hero/Hero';
 import { Header } from './components/Navbar/Header';
 import { Services } from './components/Services/Services';
 import { Feature } from './components/Feature/Feature';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Services />
+      <About />
       <Feature />
     </Router>
   

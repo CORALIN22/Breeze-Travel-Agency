@@ -21,7 +21,7 @@ import kyoutobamboo from './kyoutobamboo.png'
 import kyoutoBlog from './kyoutoBlog-min.png'
 import mtfuji from './mtfuji.png'
 import nighttokyojpg from './nighttokyojpg-min.jpg'
-import office from './office.png'
+import office2 from './office.png'
 import okinawa from './okinawa.png'
 import packingList from './packignList-min.png'
 import pkgA from './pkgA-min.png'
@@ -34,4 +34,4 @@ import temple from './temple.png'
 import breezeProfPic from './profileLogo.png'
 
 
-export {addonCrafts,addonNightLife,addonOnsen,addonSumo,alps,aroundfiju,autumnPkg,breezeLogo,breezeOfc,bullettrain,citystreets,hero,islandbreeze,japanAlps,japannight,jpDineing,jpFestival,kimono,kyoto,kyoutoBlog,kyoutobamboo,mtfuji,nighttokyojpg,office,okinawa,packingList,pkgA,riverredbridge,snowboarding,springPkg,summerPkg,winterPkg,temple,breezeProfPic}
+export {addonCrafts,addonNightLife,addonOnsen,addonSumo,alps,aroundfiju,autumnPkg,breezeLogo,breezeOfc,bullettrain,citystreets,hero,islandbreeze,japanAlps,japannight,jpDineing,jpFestival,kimono,kyoto,kyoutoBlog,kyoutobamboo,mtfuji,nighttokyojpg,office2,okinawa,packingList,pkgA,riverredbridge,snowboarding,springPkg,summerPkg,winterPkg,temple,breezeProfPic}
