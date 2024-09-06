@@ -7,7 +7,7 @@ export const Feature = () => {
         <section id="feature" className='bg-primary-100 py-14 px-4 md:px-8 lg:px-16'>
             <div className='container mx-auto flex flex-col gap-10 items-center justify-center'>
                 <h1 className='text-2xl text-primary-950 py-4 px-2 mb-6 md:text-3xl'>Featured Tours</h1>
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-10'>
+                <div className='grid grid-cols-1 md:grid-cols-1  lg:grid-cols-3 gap-y-10 gap-x-10'>
                     <CoreFeature {...FEATURES[0]} />
                     <CoreFeature {...FEATURES[1]} />
                     <CoreFeature {...FEATURES[2]} />
