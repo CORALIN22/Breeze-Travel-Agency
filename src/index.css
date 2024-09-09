@@ -37,4 +37,30 @@
   } 
 }
 
+@media (max-width: 1023px) { 
+  .core-feature:nth-last-child(-n+3) {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1024px) { 
+  .core-feature:nth-last-child(-n+3) {
+    display: inline;
+  }
+}
+
+/* .core-feature {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.4s;
+} */
+
+.core-feature:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+
 
