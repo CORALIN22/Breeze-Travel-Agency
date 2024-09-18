@@ -58,7 +58,8 @@
 } */
 
 .core-feature:hover {
-  transform: translateY(-1.2rem);
+  transform: translateY(-0.4rem);
+  transition: transform 0.4s ease-in;
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
